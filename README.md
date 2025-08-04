@@ -13,7 +13,7 @@
     - Фасад — для координації процесів аналізу та генерації
     - Адаптер — для уніфікації форматів звіту
 
-Структура проєкту
+## Структура проєкту
 ```text
 src/
 ├── AnalyzerFacade.ts
@@ -37,10 +37,12 @@ npx ts-node src/main.ts <шлях-до-папки> <формат>
 - <формат> — формат звіту: json, csv, або xml (за замовчуванням json)
 
 ## Приклад
+```bash
 npx ts-node src/main.ts ./my-folder csv
+```
 
 Вивід у консолі:
-```bash
+```text
 Report generated successfully: reports/report-2025-08-04T08-02-24-505Z.csv
 ```
 
