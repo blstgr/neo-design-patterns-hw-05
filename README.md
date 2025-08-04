@@ -41,7 +41,7 @@ npx ts-node src/main.ts <шлях-до-папки> <формат>
 npx ts-node src/main.ts ./my-folder csv
 ```
 
-Вивід у консолі:
+## Вивід у консолі
 ```text
 Report generated successfully: reports/report-2025-08-04T08-02-24-505Z.csv
 ```
